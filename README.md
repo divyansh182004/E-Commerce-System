@@ -16,8 +16,9 @@ suppliers: Vendor directories managing external stock sources.
 orders: Transaction headers tracking status flows (PENDING, PROCESSING, SHIPPED, DELIVERED, CANCELLED) and totals.   
 order_items: Line-item details capturing locked historical unit prices at the moment of sale.   
 
- Analytical Views (CREATE VIEW)v_order_summary:
-Aggregates order metrics, customer profile details, item counts, and aggregate quantities per transaction.   v_product_inventory: Tracks stock discrepancies by contrasting lifetime units purchased against units sold.   v_daily_sales: Computes day-level revenue breakdowns, active order volumes, and average order values.   v_customer_summary: Provides lifetime analytics per customer including total spending, order counts, and last purchase activity dates.   
+Analytical Views (CREATE VIEW)
+v_order_summary: Aggregates order metrics, customer profile details, item counts, and aggregate quantities per transaction.   
+v_product_inventory: Tracks stock discrepancies by contrasting lifetime units purchased against units sold.   v_daily_sales: Computes day-level revenue breakdowns, active order volumes, and average order values.   v_customer_summary: Provides lifetime analytics per customer including total spending, order counts, and last purchase activity dates.   
 purchase_orders: Incoming vendor stock acquisition headers.   
 purchase_items: Individual line costs and quantities associated with supplier purchases
 
